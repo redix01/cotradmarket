@@ -1,0 +1,17 @@
+.badges_dash_wrap .tooltiptext {
+    display: none;
+}
+
+
+img.mb-2.expertise_badge {
+    width: 40px;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+
+
+.lg\:w-16 .badges_dash_wrap{
+    display: none !important;
+}

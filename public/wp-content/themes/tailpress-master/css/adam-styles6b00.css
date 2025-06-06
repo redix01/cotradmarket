@@ -1,0 +1,17 @@
+/* Forum style fixes */
+.bbp-reply-form, li.bbp-footer, .bbp-pagination {
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+    float: none !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.bbp-submit-wrapper button {
+    background: blue;
+    color: white;
+    padding: 10px;
+    min-width: 200px;
+    border-radius: 5px;
+    font-weight: 600;
+}

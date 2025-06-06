@@ -1,0 +1,7 @@
+.bold_text{font-weight: 600 !important;}
+.ticker_header_name{
+	cursor: help; 
+	position: relative;
+	float: right;
+	right: 10px;
+}
