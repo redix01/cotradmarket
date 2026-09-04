@@ -1118,14 +1118,6 @@
                                                     font-size: .85em
                                                 }
 
-                                                .elementor-field-type-recaptcha_v3 .elementor-field-label {
-                                                    display: none
-                                                }
-
-                                                .elementor-field-type-recaptcha_v3 .grecaptcha-badge {
-                                                    z-index: 1
-                                                }
-
                                                 .elementor-button .elementor-form-spinner {
                                                     order: 3
                                                 }

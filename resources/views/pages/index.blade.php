@@ -1812,8 +1812,6 @@
     <script type="text/javascript"
             src="wp-content/themes/tailpress-master/js/old_finance_js/jquery.countdown6b00.js?ver=3.4.0"
             id="jquery_countdown-js"></script>
-    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?ver=6.6.2"
-            id="google_recaptcha_api-js"></script>
     <script type="text/javascript" id="bbp-voting-js-js-extra">
         /* <![CDATA[ */
         var bbp_voting_ajax_object = {"ajax_url": "https:\/\/truetradinggroup.com\/wp-admin\/admin-ajax.php"};

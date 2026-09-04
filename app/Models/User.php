@@ -35,7 +35,6 @@ class User extends Authenticatable implements MustVerifyEmail
         'city',
         'address',
         'coinbase',
-        'captcha',
     ];
 
     protected $hidden = [

@@ -16,6 +16,10 @@ class LoginRequest extends FormRequest
      */
     public function authorize(): bool
     {
+        if ($this->input('website') !== null && $this->input('website') !== '') {
+            return false;
+        }
+
         return true;
     }
 
@@ -29,7 +33,6 @@ class LoginRequest extends FormRequest
         return [
             'email' => ['required', 'string', 'email'],
             'password' => ['required', 'string'],
-            'captcha' => 'required|captcha',
         ];
     }
 

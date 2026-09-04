@@ -52,20 +52,12 @@
                                 @endif
 
                             </div>
-                           <div class="m-3">
-                                <img src="{{ captcha_src() }}" id="captcha_image" alt="captcha">
-                                <input type="text" name="captcha" required placeholder="Enter CAPTCHA">
-                                <button type="button" class="btn btn-link" onclick="refreshCaptcha()">Refresh</button>
-    {{--                            <strong>Solve the captcha</strong>--}}
+
+                            <!-- Honeypot: invisible to humans, bots will fill it -->
+                            <div style="position:absolute;left:-9999px;top:-9999px;height:0;width:0;overflow:hidden;" aria-hidden="true">
+                                <label for="website">Website</label>
+                                <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
                             </div>
-
-                            <script type="text/javascript">
-                                function refreshCaptcha() {
-                                    var captchaImage = document.getElementById('captcha_image');
-                                    captchaImage.src = '{{ captcha_src() }}' + '?' + Math.random();
-                                }
-                            </script>
-
 
                             </div>
                             <div class="d-flex justify-content-center mt-4">
